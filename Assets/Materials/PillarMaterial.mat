@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3612474352997791365
+--- !u!114 &-2062409373409501891
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,19 +20,30 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Green
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Name: PillarMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 2998097399762454ea9765c25c7fb32e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_06b937dd784a45309d473fd99156b31e:
+        m_Texture: {fileID: 2800000, guid: aec7947119cafe548ad401d85481332b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_1eeb4fb972874c89873f7daad02573e0:
+        m_Texture: {fileID: 2800000, guid: 5b2201d2f740eb047896152027faa236, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_d247eadb6ba94a1bba0d4f0cc3f50c84:
+        m_Texture: {fileID: 2800000, guid: 5071e9b48ab402a43a7aea23c17e27ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -90,6 +101,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_9d2233d521184ac1936185b89d8cf5b5: 1
+    - Vector1_40d6ad9b15b4482abc19d3cbc29caa7b: 0.1
+    - Vector1_4639b77312b74897a7ddf30c961ca655: 2.5
+    - Vector1_5ffc2b3ad06c4904bb8af675d2984341: 0.1
+    - Vector1_7b8ed31b528f4753a20afbd90ec0210f: 1.72
+    - Vector1_7f0447b14c8e47edad1a7496a9f3eb69: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -101,13 +118,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -115,12 +131,14 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 1, b: 0, a: 1}
-    - _Color: {r: 0, g: 1, b: 0, a: 1}
+    - Color_9a9d1add2474429bb0b3dbe367aa91fe: {r: 32, g: 32, b: 32, a: 1}
+    - Color_a5f0e337ae524a909d5483e6daa3f4a0: {r: 32, g: 32, b: 0, a: 0.8235294}
+    - Color_dcd088baa8244c10b789abe072990f13: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
